@@ -8,7 +8,7 @@ It a combination of RotatingFileHandler and WatchedFileHandler, adapted from pyt
 Example
 -------
 
-    from watched_rotating_log import multiprocessing
+    from watched_rotating_log import WatchedRotatingFileHandler
     import multiprocessing
 
     logger = logging.getLogger('test')
